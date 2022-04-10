@@ -1,0 +1,31 @@
+<div id="index">
+    <% page.posts.forEach(function(post){ %>
+        <div class="post">
+            <% if (post.title.length === 0) { post.title = post.path } %>
+            <h1 class="title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h1>
+            <% post.excerpt = post.excerpt.length > 0 ? post.excerpt : post.content %>
+            <div class="content"><%- truncate(strip_html(post.excerpt), {length: 200}) %></div>
+            <div class="intro">
+                <div class="time">
+                    <%- date(post.date, 'YYYY年MM月DD日') %>
+                </div>
+                <div class="categories">
+                    <% post.categories.forEach(function (category) { %>
+                        <a href="<%= category.path %>"><%= category.name %></a>
+                    <% }) %>
+                </div>
+                <div class="tags">
+                    <% post.tags.forEach(function (tag) { %>
+                        <a href="<%= tag.path %>"><%= tag.name %></a>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+    <div class="pagination">
+        <a href="<%- url_for(page.prev_link) %>">上一页</a>
+        <span><%= page.current %> / <%= page.total%></span>
+        <a href="<%- url_for(page.next_link) %>">下一页</a>
+    </div>
+</div>
+

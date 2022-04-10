@@ -1,0 +1,31 @@
+header
+    position fixed
+    top 0
+    left 0
+    right 0
+    padding-top 12px
+    padding-bottom 12px
+    margin auto
+    max-width $max-width
+    display: flex
+    justify-content: space-between
+    background-color $background-color
+    z-index 9999
+
+header .title
+    font-size: 20px
+    font-family Consolas
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    width: 64px;
+    font-size: $font-size;
+}
+
+nav a:last-child {
+    border: none;
+}

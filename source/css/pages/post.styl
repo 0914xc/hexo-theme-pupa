@@ -1,0 +1,41 @@
+#post
+    margin auto
+    max-width $content-max-width
+
+    .intro
+        display flex
+        justify-content left
+        font-size $index-post-intro-font-size
+        color $index-post-intro-color
+
+        div
+            padding-right 5px
+
+            a
+                color $index-post-intro-color
+
+                &:hover
+                    color $theme-color
+
+        .categories a
+            margin-left 2px
+            border-bottom 1px dashed $index-post-intro-color
+            &:hover
+                border-color $theme-color
+
+        .tags a
+            &:before
+                content '#'
+
+article .video-container {
+    margin: auto;
+    width: 100%;
+    height: 350px;
+}
+
+article .video-container > iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+}

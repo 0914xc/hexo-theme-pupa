@@ -1,0 +1,89 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2:before, h3:before, h4:before, h5:before, h6:before {
+    content: "#";
+    display: inline-block;
+    color: $theme-color;
+    padding-right: 8px;
+}
+
+h2 {
+    padding-bottom: 12px;
+    font-size: 20px;
+    border-bottom: 1px solid #ececec;
+}
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+p {
+    margin: 22px 0;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+blockquote {
+    padding: 1px 22px;
+    margin: 22px 0;
+    border-left: 4px solid $theme-color;
+    color: #ffffff;
+    background-color: rgba(68,72,74,.3);
+}
+
+strong {
+    color: $theme-color;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 28px;
+}
+
+ul li, ol li {
+    padding-left: 6px;
+    margin: 16px 0;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+img
+    max-width 100%
+
+.katex
+    font-size 1rem
+    text-indent 0
+    text-rendering auto
+
+table {
+    table-layout: auto
+    width: 100%;
+    margin: 22px 0;
+    line-height: 1.6;
+    text-align: left;
+    border-collapse: collapse
+    border-spacing: 0
+    border: 1px solid #ececec;
+}
+
+td, th {
+    padding: 8px 6px;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+
+thead {
+    background-color: #f6f6f6;
+}
+
+tr:nth-child(2n) {
+    background-color: #fcfcfc;
+}
