@@ -2,7 +2,7 @@
 
 $theme-color = unquote(hexo-config("theme-color"))
 $background-color = #161616
-$font-family = -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji
+$font-family = "Helvetica Neue",Helvetica,Arial,sans-serif
 $font-size = 16px
 $small-font-size = 14px
 $small-font-color = #b6b6b6
@@ -26,16 +26,3 @@ $content-max-width = 800px
 @import "pages/tag.styl"
 @import "pages/post.styl"
 @import "pages/page.styl"
-
-
-
-@media (max-width: 672px) {
-    body {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    article .video-container {
-        height: 200px;
-    }
-}

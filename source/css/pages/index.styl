@@ -10,6 +10,11 @@ $index-post-intro-color = #b6b6b6
         padding-bottom 20px
         border-bottom 1px solid #333
 
+        .title
+            &:before
+                padding-right 0
+                content ''
+
         .content
             padding-bottom 20px
 
@@ -20,17 +25,23 @@ $index-post-intro-color = #b6b6b6
             color $index-post-intro-color
 
             div
-                padding-right 5px
+                display flex
+                align-items center
+                margin-right 20px
+
+                svg
+                    margin-right 5px
 
                 a
+                    margin-right 4px
                     color $index-post-intro-color
 
                     &:hover
                         color $theme-color
 
             .categories a
-                margin-left 2px
                 border-bottom 1px dashed $index-post-intro-color
+
                 &:hover
                     border-color $theme-color
 
