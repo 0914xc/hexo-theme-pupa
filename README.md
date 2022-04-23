@@ -21,5 +21,6 @@ git clone git@github.com:0914xc/hexo-theme-pupa.git themes/pupa
 - [ ] Beautify archive page, tags page, categories page and custom page
 - [ ] highlight.js and prism.js support
 - [ ] comment support
+- [x] highlight toc
 
 
