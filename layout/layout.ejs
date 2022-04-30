@@ -12,15 +12,14 @@
     <%- favicon_tag(theme.favicon) %>
     <%- css('/css/theme') %>
 </head>
-<body data-theme="dark">
+<body>
 <header>
-    <%- partial('partial/header') %>
+    <div class="title"><%- image_tag('images/cactus.png', {"class": "site-icon"}) %><%= config.title %></div>
 </header>
 <main>
     <%- body %>
 </main>
 <footer>
-    <%- partial('partial/footer')%>
 </footer>
 <%- js('https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js') %>
 <%- js('/js/theme.js') %>
