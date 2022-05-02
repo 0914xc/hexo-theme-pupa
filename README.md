@@ -11,7 +11,7 @@ git clone git@github.com:0914xc/hexo-theme-pupa.git themes/pupa
 ```
 
 ## TodoList
-
+- [ ] Home page list Pagination
 - [ ] Make the blog's background use random color.
 - [ ] Custom the header's background.
 - [ ] Use the hitotock and realize typing animation.
