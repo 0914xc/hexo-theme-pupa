@@ -1,3 +1,4 @@
+/*首页分页*/
 .pagination {
     display: flex;
     justify-content: center;
@@ -37,4 +38,36 @@
 .pagination-dot:hover {
     background: #fff !important;
     color: #555 !important;
+}
+
+/*文章页分页*/
+.post-pagination {
+    border-top: 1px solid #f1f2f4;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.post-pagination a {
+    display: block;
+    width: calc(50% - 25px);
+    border-bottom: none;
+    color: #999;
+}
+
+.post-pagination a:hover {
+    color: #555;
+    background: #f1f2f4;
+    transition: .3s;
+}
+
+.post-pagination a.prev {
+    float: left;
+    text-align: left;
+    padding: 14px 0 14px 25px;
+}
+
+.post-pagination a.next {
+    float: right;
+    text-align: right;
+    padding: 14px 25px 14px 0;
 }

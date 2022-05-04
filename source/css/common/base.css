@@ -9,7 +9,7 @@ body {
 }
 
 .background {
-    background: url("https://cdnb.artstation.com/p/assets/images/images/025/423/333/medium/sylvain-sarrailh-yoshicollines.jpg?1585749317");
+    background: var(--body-background);
     background-size: cover;
     filter: blur(30px);
     height: 100vh;
@@ -32,11 +32,12 @@ a {
     text-decoration: none;
     cursor: pointer;
     text-align: center;
-    color: var(--theme-color)
+    color: #555
 }
 
 a:hover {
     color: var(--theme-color);
+    transition: .3s;
 }
 
 /*修正图片缩小后变模糊的问题*/
@@ -47,4 +48,3 @@ img {
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
 }
-

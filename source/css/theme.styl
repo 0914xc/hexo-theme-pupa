@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "utf-8"
 
 @import "common/normalize.css";
 @import "common/base.css";
@@ -13,9 +13,12 @@
 
 @import "pages/index.css";
 @import "pages/post.css";
+@import "pages/archive.css";
 @import "pages/page.css";
+@import "pages/link.css"
 
 :root {
-    --theme-color: tomato;
+    --theme-color: unquote(hexo-config("themeColor"))
+    --body-background: url(unquote(hexo-config("backgroundUrl")))
 }
 

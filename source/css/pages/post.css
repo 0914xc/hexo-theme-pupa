@@ -1,12 +1,8 @@
 .post {
-    padding: 25px;
 }
 
 .article-header {
-}
-
-.article-header .article-meta {
-
+    padding: 25px 25px 0;
 }
 
 .article-meta-box {
@@ -23,4 +19,17 @@
     height: 2px;
     bottom: -2px;
     background-color: var(--theme-color) !important;
+}
+
+.post .article-content {
+    padding: 0 25px;
+}
+
+.post a {
+    border-bottom: 1px solid #999;
+}
+
+.post a:hover {
+    border-color: var(--theme-color);
+    transition: .3s;
 }
