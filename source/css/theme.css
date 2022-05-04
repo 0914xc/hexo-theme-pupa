@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+@import "common/normalize.css";
 @import "common/base.css";
 @import "common/article.css";
 @import "common/highlight.css";
+@import "iconfont/iconfont.css";
+@import "common/pagination.css";
 
 @import "layout/header.css";
 @import "layout/main.css";

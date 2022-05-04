@@ -1,10 +1,12 @@
+article {
+    text-align: justify; /*文字两侧对其，对最后一行无效*/
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
 p {
-    line-height: 1.8;
-    color: #333;
+    margin: 25px 0 25px 0;
 }
 
 blockquote {
@@ -84,6 +86,7 @@ hr {
 .article-meta {
     margin-top: 10px;
     display: flex;
+    align-items: center;
     font-size: 12px;
     color: #999;
 }

@@ -1,10 +1,8 @@
-.article-header {
-    padding: 16px;
+.post {
+    padding: 25px;
 }
 
-.post .article-content {
-    padding: 16px;
-    font-size: 15px;
+.article-header {
 }
 
 .article-header .article-meta {

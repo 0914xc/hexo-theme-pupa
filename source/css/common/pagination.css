@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 16px 25px 0;
+    background-color: #f9f9f9;
+}
+
+.pagination a {
+    color: #555;
+}
+
+.pagination span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pagination span:hover {
+    background-color: var(--theme-color);
+    color: white;
+    transition: .3s;
+}
+
+.pagination span.pagination-cuurent {
+    background-color: var(--theme-color);
+    color: white;
+}
+
+.pagination-dot {
+    cursor: default !important;
+}
+
+.pagination-dot:hover {
+    background: #fff !important;
+    color: #555 !important;
+}
