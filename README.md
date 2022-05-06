@@ -30,6 +30,7 @@ theme: pupa
 - [x] Comment support, like utterances. 
 - [ ] Multi-language support, like Chinese and English.
 - [ ] Dark mode support
+- [ ] Support various contact method's icon.
 
 ## Thanks
 + [Next](https://theme-next.iissnan.com/)
