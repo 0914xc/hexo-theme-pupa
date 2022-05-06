@@ -5,7 +5,7 @@ menu:
   Page: /page
 
 # 站点微缩图
-favicon: /images/cactus.png
+favicon: /images/favicon.ico
 
 # 头像
 avator: https://cdn.jsdelivr.net/gh/wxc0914/image/a3625c26bc8735174100f6d487763b06.png
@@ -13,7 +13,7 @@ avator: https://cdn.jsdelivr.net/gh/wxc0914/image/a3625c26bc8735174100f6d487763b
 hitokoto: 我们都是阴沟里的虫子，但总还是得有人仰望星空。
 
 # 导航栏背景图片
-backgroundUrl: https://cdnb.artstation.com/p/assets/images/images/025/423/333/medium/sylvain-sarrailh-yoshicollines.jpg?1585749317
+backgroundUrl: https://cdn.jsdelivr.net/gh/wxc0914/image/342211649c34edaa0fef32c4eaa647c1.jpg
 # 主题色
 themeColor: tomato
 
@@ -21,14 +21,6 @@ themeColor: tomato
 repo: 仓库地址
 # ICP备案号
 icp: 备案号
-
-# 友链
-link:
-  - name: 博客名
-    avator: https://cdn.jsdelivr.net/gh/wxc0914/image/a3625c26bc8735174100f6d487763b06.png
-    site: 博客地址
-    intro: 座右铭
-
 
 # 评论 https://utteranc.es/
 utterances:
