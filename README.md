@@ -18,3 +18,4 @@ git clone git@github.com:0914xc/hexo-theme-pupa.git themes/pupa
 - [x] Comment support, like Gitalk. 
 - [ ] Multi-language support, like Chinese and English.
 - [x] Add the archive page which contains categories and tags.
+- [ ] Import katex to support mathematical formula.

@@ -2,8 +2,7 @@
 menu:
   Home: /
   Archive: /archives
-  About: /about
-  Link: /link
+  Page: /page
 
 # 站点微缩图
 favicon: /images/cactus.png
