@@ -22,8 +22,18 @@ repo: 仓库地址
 # ICP备案号
 icp: 备案号
 
-# 评论 https://utteranc.es/
-utterances:
+# 评论 https://giscus.app/zh-CN
+giscus:
   enable: true
-  repo: [ENTER REPO HERE]
-  theme: github-light
+  repo:
+  repo_id:
+  category: Announcements
+  category_id: DIC_kwDOFcPKls4CO_hE
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  theme: light
+  lang: zh-CN
+  loading: lazy
+  crossorigin: anonymous

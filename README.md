@@ -27,7 +27,7 @@ theme: pupa
 - [x] Realize the paging of home page article list.
 - [x] Add the archive page.
 - [ ] Import katex to support mathematical formula.
-- [x] Comment support, like utterances. 
+- [x] Comment support, like giscus. 
 - [ ] Multi-language support, like Chinese and English.
 - [ ] Dark mode support
 - [ ] Support various contact method's icon.
