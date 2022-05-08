@@ -31,6 +31,7 @@ theme: pupa
 - [ ] Multi-language support, like Chinese and English.
 - [ ] Dark mode support
 - [ ] Support various contact method's icon.
+- [ ] support toc anchor.
 
 ## Thanks
 + [Next](https://theme-next.iissnan.com/)
