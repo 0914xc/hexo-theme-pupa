@@ -2,7 +2,7 @@
 > Ordinary but not dull, simple yet wonderful.
 
 [[Preview / 预览]](https://blog.weixiaochen.cn)
-![preview](https://cdn.jsdelivr.net/gh/wxc0914/image/426bba5a0bd8da6328c58be8ee07ed96.png)
+![preview](https://cdn.jsdelivr.net/gh/wxc0914/image/6375cff588a55eabd46aee988f6c23fd.png)
 
 ## How to use it?
 
